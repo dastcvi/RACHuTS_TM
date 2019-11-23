@@ -6,10 +6,10 @@ Based on code written by Lars Kalnajs
 
 To use this script to process the RACHuTS TM files:
 
-    First run "python3 retrieve_st2_data.py" from Windows
-    Then run "python3 RACHuTS_TM.py FullTM*/*.dat" from WSL
+    First run "python3 retrieve_st2_data.py"
+    Then run "python3 RACHuTS_TM.py FullTM*/*.dat"
 
-The resulting MCB CSVs and TM text will be placed in the directory Processed_Data/
+The resulting MCB CSVs and TM text will be placed in the directory FullTM*/Processed_Data/
 """
 
 import csv
